@@ -259,7 +259,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
 
       // Save the PDF
-      pdf.save(`monthly_expenses_report${date.toLocaleDateString()}.pdf`);
+      pdf.save(`monthly_expenses_reportU_${date.toLocaleDateString()}.pdf`);
     });
   /* =================================================================================== */
   // Clear all expenses and reset the form
