@@ -84,16 +84,15 @@ document.addEventListener("DOMContentLoaded", () => {
       categoryTableBody.appendChild(row);
     });
 
-    // Update the category dropdown for expenses
-    let categorySelect = document.getElementById("item-category");
-    categorySelect.innerHTML = ""; // Clear existing options
-    categories.forEach((cat) => {
-      let option = document.createElement("option");
-      option.value = cat;
-      option.textContent = cat;
-      categorySelect.appendChild(option);
-    });
+let categorySelect = document.getElementById("item-category");
+categorySelect.innerText = "";
 
+categories.forEach((cat) => {  
+  let option = document.createElement("option");
+  option.value = cat;            // تم تصحيح مفتاح value
+  option.text = cat;           
+  categorySelect.appendChild(option); 
+});
     // Attach event listeners to delete buttons
     document.querySelectorAll(".delete-category").forEach((button) => {
       button.addEventListener("click", function () {
