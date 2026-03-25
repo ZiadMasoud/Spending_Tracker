@@ -1,4 +1,4 @@
-# Income Manager (ProtoType)
+# Income Manager (ProtoType) https://ziadmasoud.github.io/Spending_Tracker/
 
 ## Description
 
@@ -69,4 +69,4 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ---
 
-Developed by **Ziad Masoud**. https://ziadmasoud.github.io/Home-Money-Manager/
+Developed by **Ziad Masoud**.
